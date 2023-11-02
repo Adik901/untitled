@@ -12,10 +12,13 @@ import org.openqa.selenium.WebDriver;
         private By Username = By.xpath("//input[@type='text']");
         private By Password = By.xpath("//input[@id='password']");
         private By LoginButton = By.xpath("//input[@id='login-button']");
-        private By SwagLabs = By.xpath("//div[text()='Swag Labs']");
 
-        // New
+        //                                      New
 
+
+
+        private By SwagLabs =
+                By.xpath("//div[text()='Swag Labs']");
         private static By product_sort_container =
                 By.xpath("//select[@class='product_sort_container']");
         private By Remove1 =
